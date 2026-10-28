@@ -1,0 +1,52 @@
+# Audio and voice recordings: never commit personal voice data.
+*.wav
+*.wave
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.opus
+*.wma
+*.aiff
+*.aif
+*.amr
+
+# Data and folders that may contain recordings or speaker samples.
+/audios/
+/modelos/
+/data/
+**/audio/
+**/audios/
+**/recordings/
+**/grabaciones/
+**/voice_samples/
+**/speaker_samples/
+**/voces/
+
+# Downloaded models, checkpoints, and model caches.
+/models/
+**/models/
+**/checkpoints/
+**/weights/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.gguf
+*.tflite
+*.h5
+*.model
+*.bin
+/.cache/
+/.huggingface/
+/hf_cache/
+
+# Local notebook and Python artifacts.
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/

@@ -13,6 +13,8 @@ Explorar una solución personalizada de voz que pueda:
 
 La reconstrucción de una voz es una meta del proyecto, no una capacidad que este repositorio garantice en su estado actual. La calidad y viabilidad dependerán de los datos disponibles, las necesidades individuales y las tecnologías que se evalúen.
 
+> Este es un proyecto de apoyo, no es un dispositivo médico y no reemplaza el trabajo con su fonoaudiólogo.
+
 ## Principios
 
 - **Consentimiento y control:** ninguna voz o grabación debe utilizarse sin autorización informada de su titular.
@@ -24,6 +26,12 @@ La reconstrucción de una voz es una meta del proyecto, no una capacidad que est
 ## Estado
 
 Proyecto en etapa inicial. Este repositorio funciona como punto de partida para documentar su propósito, decisiones y desarrollo.
+
+## Modelos y licencias
+
+XTTS-v2 es una alternativa a evaluar, no una dependencia confirmada. El modelo se distribuye bajo la **Coqui Public Model License (CPML)**, una licencia propia que puede imponer condiciones distintas a las de las licencias open source estándar. Antes de adoptarlo, hay que revisar sus términos para el uso previsto. La licencia del código de Memi no concede derechos adicionales sobre modelos, voces ni datos de terceros.
+
+El proyecto busca priorizar componentes con licencias abiertas y compatibles con el uso previsto. La licencia de cada componente debe verificarse por separado antes de integrarlo.
 
 ## Colaboración
 
